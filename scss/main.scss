@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//variables//
+@import'./variables/mixins';
+@import'./variables/extend';
+@import'./variables/tipografia';
+
+
+
+@import'./secciones/index';
+@import'./secciones/ubicacion';
+@import'./secciones/habitaciones';
+@import'./secciones/reservas';
+@import'./secciones/contacto';
+@import'./secciones/header';
+@import'./secciones/footer';
+
+
+
+
+
+
+
+
+
+
+
+
+

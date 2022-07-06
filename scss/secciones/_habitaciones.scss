@@ -1,0 +1,43 @@
+h1{
+ font-family: $Roboto;
+ text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: $Roboto;
+}
+.habitaciones{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-left: 1rem;
+    
+       .card{
+        padding: 2rem;
+        margin: 4rem;
+        background-image: linear-gradient(to top,rgb(196, 213, 241), white 85%);
+        border-color: black;
+        p{ 
+            @extend %estiloParrafo;
+         
+        }
+        .h5{
+            font-family: $Alegreya;
+            font-size: 2rem;
+        }
+
+        .btn{
+           @include btn-primary(black,white)
+
+           }
+        }  
+}
+
+@media (max-width: 650px){
+
+    .habitaciones{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

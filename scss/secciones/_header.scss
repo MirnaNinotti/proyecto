@@ -1,0 +1,25 @@
+header{
+   .navbar{
+    background-image: linear-gradient(to left,black, rgb(20, 20, 117), rgb(84, 125, 191), white 85%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    
+      .nav-item:hover .nav-link{
+         color: black;
+         transform: scale(1.30);
+            &:active{
+                color: red;
+            }
+        }
+    }
+
+
+.logo2{
+     width: 150px;
+     margin-top: 5px;
+    
+    }
+}

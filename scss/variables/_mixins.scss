@@ -1,0 +1,6 @@
+@mixin btn-primary($colorfondo, $colorletra){
+    padding: 1rem;
+    background-color: $colorfondo;
+    color: $colorletra;
+
+}

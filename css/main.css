@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primerasection {
+  background: url(https://digital.ihg.com/is/image/ihg/intercontinental-buenos-aires-3613384476-2x1?fit=fit,1&wid=2400&hei=1200&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.segundasection {
+  grid-row: 3;
+  grid-column: 2;
+}
+.segundasection h1 {
+  color: white;
+}
+.segundasection p {
+  color: white;
+}
+.segundasection .btn {
+  height: 50px;
+  width: 40%;
+  outline: none;
+  border: none;
+  color: black;
+  background: white;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.segundasection .btn:hover {
+  background-color: rgb(16, 16, 136);
+  color: white;
+}
+
+.sextasection {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin: 2rem;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+.imgmapa {
+  display: flex;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.septimasection {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+@media (max-with: 65opx) {
+  .imgmapa {
+    width: 50%;
+  }
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.habitaciones {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+.habitaciones .card {
+  padding: 2rem;
+  margin: 4rem;
+  background-image: linear-gradient(to top, rgb(196, 213, 241), white 85%);
+  border-color: black;
+}
+.habitaciones .card p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serifs;
+  font-size: 10px;
+}
+
+.habitaciones .card .h5 {
+  font-family: "Alegreya SC", serif;
+  font-size: 2rem;
+}
+.habitaciones .card .btn {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .habitaciones {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.reserva p {
+  margin: 1rem;
+  text-align: justify;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: blue;
+}
+
+.formulario {
+  text-align: center;
+  font-size: 4rem;
+  border-color: black;
+  border-width: 2px;
+  margin-top: 1rem;
+  border-radius: 15%;
+}
+
+.form-control {
+  height: 2.5rem;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: rgb(189, 189, 189);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rem;
+}
+
+header .navbar {
+  background-image: linear-gradient(to left, black, rgb(20, 20, 117), rgb(84, 125, 191), white 85%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+header .navbar .nav-item:hover .nav-link {
+  color: black;
+  transform: scale(1.3);
+}
+header .navbar .nav-item:hover .nav-link:active {
+  color: red;
+}
+header .logo2 {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: #2b2b2b;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.footer ol {
+  display: flex;
+}
+.footer ol li a {
+  color: white;
+  padding: 1rem;
+}
+.footer p {
+  color: #3b3b3b;
+}/*# sourceMappingURL=main.css.map */
