@@ -1,29 +1,49 @@
 .sextasection{
     display: flex;
-    flex-direction: row;
     
-   }
+
    p{
-    text-align: left;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     margin: 2rem;
     border-radius: 5px;
     max-width: 50%;
-    
 
-}
+    }
+
    .imgmapa{
     display: flex;
     margin-top: 1rem ;
-    max-width: 100%;
+    max-width: 50%;
+    margin-left: 3rem;
+    }
 }
 
 .septimasection{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     padding: 2rem;
     margin-left: 1rem;
+
+    .card:hover{
+        transition: 1s;
+        transform: scale(1.2);
+    }
+
+    .card{
+        padding: 2rem;
+        margin: 1rem;
+        border-color: black;
+        
+        div{
+         
+            p{
+                text-align: center;
+                font-family: $Acme;
+            }
+        }
+    }
 
     
 }
@@ -31,4 +51,9 @@
     .imgmapa{
         width: 50%;
     }
+    // .septimasection{
+    //         flex-direction: column-reverse;
+    //         align-items: center;
+    
+    //  }
 }

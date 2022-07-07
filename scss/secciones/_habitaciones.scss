@@ -9,7 +9,7 @@ h2{
 .habitaciones{
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     padding: 2rem;
     margin-left: 1rem;
     
@@ -25,6 +25,7 @@ h2{
         .h5{
             font-family: $Alegreya;
             font-size: 2rem;
+            text-align: center;
         }
 
         .btn{
@@ -34,10 +35,9 @@ h2{
         }  
 }
 
-@media (max-width: 650px){
+// @media (max-width: 650px){
 
-    .habitaciones{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-}
+//     .habitaciones{
+//         flex-direction: column-reverse;
+//         align-items: center;
+    // }
