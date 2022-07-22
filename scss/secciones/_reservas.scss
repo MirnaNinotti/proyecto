@@ -1,6 +1,6 @@
 .contenedor-reservas{
  display: flex;
- background: url(https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat;
+ background: url(https://media.istockphoto.com/photos/luxury-modern-bedroom-interior-at-night-picture-id1318363878?k=20&m=1318363878&s=612x612&w=0&h=ETcY1pa0YUnslnqbpehr8lRmM12GFDCpPNhuZ1VU1cE=) no-repeat;
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -9,15 +9,13 @@
  grid-template-rows: repeat(12,1fr);
 
  .reserva{
-   grid-column: 6;
+   grid-column: 2;
    grid-row: 2;
    color: white;
 
      h1{
         grid-column: 4/8;
         
-
-
      }
      p{
 
@@ -26,10 +24,16 @@
  }
  form{
     display: flex;
-    border: 0.5rem solid red;
-    grid-column: 2/12;
-    grid-row: 5;
-
+    border: 0.3rem solid black;
+    background-color:white;
+    grid-column: 3/12;
+    grid-row: 9;
+     
+     input{
+      // margin-left: 0.5rem;
+      padding: 0.3rem;
+      margin: 0.5rem;
+     }
 
 }
 }

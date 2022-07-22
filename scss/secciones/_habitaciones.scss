@@ -1,5 +1,5 @@
 h1{
- font-family: $Roboto;
+ font-family: $Monserrat1;
  text-align: center;
 }
 h2{
@@ -30,9 +30,14 @@ h2{
 
         .btn{
            @include btn-primary(black,white)
-
+           
+           }
+           .btn:hover {
+            background-color: rgb(16, 16, 136);
+            color: white;
            }
         }  
+    
 }
 
 // @media (max-width: 650px){
