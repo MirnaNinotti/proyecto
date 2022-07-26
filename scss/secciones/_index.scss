@@ -1,6 +1,5 @@
 .primerasection { 
-    background: url(https://digital.ihg.com/is/image/ihg/intercontinental-buenos-aires-3613384476-2x1?fit=fit,1&wid=2400&hei=1200&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0
-    ) no-repeat;
+    background: url(https://img.freepik.com/fotos-premium/3d-hotel-lujo-recepcion-salon_105762-9.jpg?w=826) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -16,28 +15,13 @@
       grid-column: 3;
     
        h1 {
-        color: white;
-        font-size: 4rem;
+        color: #303030;
+        font-size: 3rem;
          }
         p {
-         color: white;
+         color: black;
          text-align: center;
          }
-       .btn{
-         height: 50px;
-         width: 40%;
-         outline: none;
-         border: none;
-         color: black;
-         background: white;
-         border-radius: 50px;
-         transition: all 0.4s;
-    
-         }
-    
-         .btn:hover {
-          background-color: rgb(16, 16, 136);
-          color: white;
-         }
+   
 }
     

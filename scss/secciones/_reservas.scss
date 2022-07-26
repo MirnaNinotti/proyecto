@@ -1,6 +1,6 @@
 .contenedor-reservas{
- display: flex;
- background: url(https://media.istockphoto.com/photos/luxury-modern-bedroom-interior-at-night-picture-id1318363878?k=20&m=1318363878&s=612x612&w=0&h=ETcY1pa0YUnslnqbpehr8lRmM12GFDCpPNhuZ1VU1cE=) no-repeat;
+ background: url(https://media.istockphoto.com/photos/hotel-room-condominium-or-apartment-doorway-picture-id1165738696?k=20&m=1165738696&s=612x612&w=0&h=glThQeKk3IgE5RXN2IpeaQxQCnb4gBTMTu2lL1vmq3Y=
+ ) no-repeat;
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -11,29 +11,51 @@
  .reserva{
    grid-column: 2;
    grid-row: 2;
-   color: white;
+   color: black;
 
      h1{
         grid-column: 4/8;
+        font-weight: 900;
         
      }
      p{
-
+      text-align: center;
+      font-family: $Monserrat;
+      color: black;
+      justify-content: center;
+      font-size: 15px;
      }
 
  }
  form{
     display: flex;
     border: 0.3rem solid black;
-    background-color:white;
-    grid-column: 3/12;
+    background-color: none;
+    grid-column: 2/9;
     grid-row: 9;
+    padding: 0.5rem;
+  
+   
      
-     input{
-      // margin-left: 0.5rem;
-      padding: 0.3rem;
-      margin: 0.5rem;
+     .label{
+      display: flex;
+      flex-wrap: wrap;
+        
+       input{
+         margin: 0.3rem;
+         border: black solid;
+         
+         
+       }
      }
 
 }
+}
+@media (max-with:350px){
+   .label{
+      flex-direction: column;
+      max-width: 350px;
+
+   }
+
 }

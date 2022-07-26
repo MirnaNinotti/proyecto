@@ -1,25 +1,31 @@
 header{
    .navbar{
-    background-image: linear-gradient(to left,black, rgb(20, 20, 117), rgb(84, 125, 191), white 85%);
+    background: linear-gradient(to right, #000000, #3a3a3a) !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 1rem;
+     
+    .nav-item{
+        padding: 0.5em;
+        transition: all 0.3s;
+
+         &:hover .nav-link{
+            transform: scale(1.1);
+         
+           }
+           .nav-link{
+            color: #DADADA;
+
+           }
+    }
     
-      .nav-item:hover .nav-link{
-         color: black;
-         transform: scale(1.30);
-            &:active{
-                color: red;
-            }
-        }
     }
 
 
 .logo2{
-     width: 150px;
-     margin-top: 5px;
+     width: 80px;
     
     }
 }

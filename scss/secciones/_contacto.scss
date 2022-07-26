@@ -1,46 +1,28 @@
 .main-contact{
-  padding: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-content: stretch;
-  justify-content: center;
-  // background-color: black;
-  // border: 1px solid black;
-  flex-wrap: wrap;
+ padding: 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ height: 100vh;
+ background: url(https://media.istockphoto.com/photos/ll-make-an-extra-reminder-about-that-picture-id1006658044?k=20&m=1006658044&s=612x612&w=0&h=1hCbUUEVRxwI-vfE5EA3tKuNB9GVrZko_TBHsZEqUl0=) no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
 
-.foto{
-    display: flex;
-    margin-top: 2rem ;
-    // max-width: 30%;
-    margin-left: 1rem;
-    height: 83.5vh;
-    align-content: space-between;
-    justify-content: space-around;
-    max-width: 50vw;
-}
 
 .formulario{
-  //  display: flex;
-  //  flex-direction: column;
-  //  align-items: center;
-  //  border: 2px solid rgb(15, 15, 16);
-   padding: 3rem;
-  //  background-color: black;
-   margin: 2rem;
-  //  border-radius: 5px;
-  //  max-width: 50%;
-   border: 1px solid black;
-  
-  
+  border: 1px solid black;
+ 
 
     h1{
       font-family: $Monserrat1;
       text-align: center;
+      margin: 0;
     }
 
     form{
      max-width: 350px;
-     margin-top: 3rem;
      display: flex;
      flex-direction: column;
     }
@@ -49,15 +31,12 @@
 
 
     .form-control{
-        // height: 2.5rem;
         border: solid black;
-        // margin-top: 1rem;
         background-color: rgb(252, 252, 252);
         margin-bottom: 1rem;
-        width: 350px;
+        width: 300px;
         display: flex;
         flex-direction: column;
-        // margin-left: 30rem;
       
        } 
     .btn{
@@ -66,7 +45,6 @@
       text-align: center;
       padding: 1rem;
       align-items: center;
-      // margin-left: 8rem;
       margin-bottom: 1rem;
        .btn:hover{
         transform: scale(1.8);
@@ -76,9 +54,4 @@
 
 }
 
-}
-@media (max-with: 65opx){
-  .form-control{
-      width: 50px;
-  }
 }

@@ -1,48 +1,45 @@
 h1{
+ padding: 2rem;
  font-family: $Monserrat1;
  text-align: center;
+
 }
 h2{
     text-align: center;
     font-family: $Roboto;
+    font-size: calc(1.375rem + 1.5vw) !important;
 }
 .habitaciones{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
-    margin-left: 1rem;
-    
+    justify-content: center;
+  
        .card{
-        padding: 2rem;
-        margin: 4rem;
+        padding: 1rem;
+        margin: 0.5rem;
         background-image: linear-gradient(to top,rgb(196, 213, 241), white 85%);
         border-color: black;
-        p{ 
+          p{ 
             @extend %estiloParrafo;
          
-        }
-        .h5{
+           }
+         .h5{
             font-family: $Alegreya;
             font-size: 2rem;
             text-align: center;
-        }
+           }
 
-        .btn{
-           @include btn-primary(black,white)
+         .btn{
+           @include btn-primary(black,white);
            
+           
+            &:hover {
+             background-color: rgb(16, 16, 136);
+             color: white;
+            }
            }
-           .btn:hover {
-            background-color: rgb(16, 16, 136);
-            color: white;
-           }
-        }  
+     }  
     
 }
 
-// @media (max-width: 650px){
-
-//     .habitaciones{
-//         flex-direction: column-reverse;
-//         align-items: center;
-    // }
